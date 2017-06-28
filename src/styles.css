@@ -4,8 +4,8 @@ body {
 }
 
 .calc {
-	width: 500px;
-	height: 330px;
+	width: 370px;
+	height: 400px;
 	background-color: #C0C0C0;
 	margin: 10% auto 0 auto;
 	border-radius: 15px;
@@ -39,9 +39,9 @@ body {
 
 .wrapper {
 	width: 350px;
-	border: 1px solid black;
-	margin: 10px 10px 0 10px;
-	height: 220px;
+	/*border: 1px solid black;*/
+	margin: 10px 10px 0 12px;
+	height: 260px;
 }
 
 .btn-standard {
@@ -49,6 +49,35 @@ body {
 	height: 40px;
 }
 
+.btn-long {
+	height: 40px;
+	width: 162px;
+}
+
+.btn-high {
+	width: 80px;
+	height: 90px;
+}
+
 .row-btn {
 	padding-left: 5px;
+	margin-bottom: 10px;
+}
+
+.short {
+	width: 255px;
+	float:left;
+}
+
+button {
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.btn-red {
+	background-color: #ff7b7b;
+}
+
+.btn-yellow {
+	background-color: #d1d495;
 }
